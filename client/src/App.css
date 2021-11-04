@@ -1,0 +1,84 @@
+html,body{
+  background-color: rgb(175, 175, 175);
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 550px;
+  height: max-content;
+  margin: auto;
+  background-color: #ebebeb;
+  padding: 50px 30px;
+  margin-top: 120px;
+  border-radius: 7px;
+  font-family: sans-serif;
+  box-shadow: 10px 11px rgba(0, 0, 0, 0.7);
+}
+
+h1{
+    color: rgba(1, 54, 54, 0.959);
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-form{
+  width: 80%;
+  padding: 5px;
+}
+
+.form-field{
+  margin-top: 50px;
+  display: block;
+  border: 1px solid rgb(201, 197, 197);
+  border-radius: 10px;
+  padding: 6px;
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+  color: rgb(94, 94, 94);
+  margin-top: 20px;
+}
+
+.form-field:focus{
+  outline: none;
+  border: 2px solid rgb(184, 184, 184);
+  border-radius: 10px;
+  padding: 5px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.form-error{
+  display: block;
+  color:#ffffff;
+  margin-top: 10px;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: rgb(237, 67, 55);
+}
+
+.button{
+  margin: 20px 0 0 100px;
+  padding: 5px 10px;
+  justify-content: center;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  height: 35px;
+  color: #ffffff;
+  border-radius: 8px;
+  background-color: rgba(0, 207, 207, 0.959);
+}
+
+.button:hover{
+  background-color: rgba(0, 134, 134, 0.959);
+}
+
+
+
+
